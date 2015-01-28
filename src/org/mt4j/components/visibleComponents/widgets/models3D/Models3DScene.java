@@ -40,7 +40,7 @@ public class Models3DScene extends AbstractScene {
 	//TODO switch button/wireframe
 	
 //	private String modelsPath = System.getProperty("user.dir") + File.separator + "examples" +  File.separator +"advanced"+ File.separator + "models3D"  + File.separator + "data" +  File.separator;
-	private String modelsPath = "advanced" + AbstractMTApplication.separator  + "models3D"  + AbstractMTApplication.separator + "data" +  AbstractMTApplication.separator;
+	private String modelsPath = "data" + AbstractMTApplication.separator  + "3D"  + AbstractMTApplication.separator + "videos" +  AbstractMTApplication.separator;
 
 	public Models3DScene(AbstractMTApplication mtApplication, String name, int nb) {
 		super(mtApplication, name);
