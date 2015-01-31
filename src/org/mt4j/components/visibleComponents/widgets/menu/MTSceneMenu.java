@@ -154,7 +154,9 @@ public class MTSceneMenu extends MTRectangle{
 			GLTexture glTex = new GLTexture(app, menuImage.width, menuImage.height, ts);
 			glTex.loadGLTexture(menuImage);
 			this.setTexture(glTex);
-		}else{
+		}
+                else
+                {
 			this.setTexture(menuImage);
 		}
 		

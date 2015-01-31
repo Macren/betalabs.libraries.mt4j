@@ -15,6 +15,6 @@ public class StartModelExample extends MTApplication{
 	
 	@Override
 	public void startUp(){
-		this.addScene(new Models3DScene(this, "3D Model scene", 1));
+		this.addScene(new Truck3DScene(this, "3D Model scene", 1));
 	}
 }
